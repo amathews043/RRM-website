@@ -13,9 +13,11 @@
 
 .nav-bar{
     background-color: rgb(237, 240, 244);
+    min-width: 100%;
+    float: left;
 }
 
-.nav {
+.nav-menu, .nav {
     display: flex;
     list-style: none;
     align-items: center;
@@ -88,3 +90,34 @@ body {
     padding: .8rem;
     font-style: italic;
 }
+
+.hamburger-menu{
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-menu div{
+    width: 35px;
+    height: 3px;
+    background-color: rgb(237, 240, 244);
+    margin: 6px 0;
+    transition: .4s;
+}
+
+@media screen and (min-width: 1100px) {
+    #hamburger-menu{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1099px) {
+    .nav-menu{
+        display: none;
+    }
+    
+}
+
+
+/* TODO: make the hamburger menu for mobile and tablet view */
