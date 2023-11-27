@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
 
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 .logo-image {
@@ -14,7 +15,6 @@
 .nav-bar{
     background-color: rgb(237, 240, 244);
     min-width: 100%;
-    float: left;
 }
 
 .nav-menu, .nav {
@@ -131,6 +131,10 @@ body {
     background-color: rgb(237, 240, 244);
     margin: 6px 0;
     transition: .4s;
+}
+
+.main-body-cards{
+    display: flex;
 }
 
 @media screen and (min-width: 1100px) {
