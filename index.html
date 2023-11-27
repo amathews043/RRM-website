@@ -15,7 +15,7 @@
     <header class="nav-bar">
         <nav class="nav-menu">
             <a class="nav-logo" href="/index.html">
-                <img class="logo-image" aria-hidden="true" decoding="async" src="images/logo.png" alt="compnay logo">
+                <img class="logo-image" aria-hidden="true" decoding="async" src="images/logo.png" alt="logo">
             </a>
             <ul class="nav">
                 <div class="dropdown">
@@ -40,23 +40,23 @@
                 <h4 class="tag-hopeless"> Hopeless </h4>
             </p>
         </nav>
-        <div id="hamburger-menu">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+        <div id="hamburger-menu" onclick="toggleMobileMenu(this)">
             <ul class="nav">
+                <a class="nav-logo" href="/index.html">
+                    <img class="logo-image" aria-hidden="true" decoding="async" src="images/logo.png" alt="logo">
+                </a>
                 <div class="dropdown">
-                    <li class="dropbtn">Who We Are</li>
-                    <div class="dropdown-content">
-                        <a href="#">Mission</a>
-                        <a href="#">Recovery Center</a>
-                        <a href="#">Discipleship</a>
-                        <a href="#">Staff</a>
+                    <a>
+                        <img class="mobile-menu-image" aria-hidden="true" decoding="async" src="images/hamburger-menu.png" alt="menu">
+                    </a>
+                    <div class="dropdown-content-mobile">
+                        <a href="#">Who We Are</a>
+                        <!-- TODO create a "Who we Are" page that includes links to the subheading fop Who We are in the full screen menu. -->
+                        <a href="#">Testimonials</a>
+                        <a href="#">Application</a>
+                        <a href="#">Ways to Give</a>
                     </div>
                 </div>
-                <li class="nav-item"> Testimonials</li>
-                <li class="nav-item"> Application</li>
-                <li class="nav-item"> Ways to Give </li>
 
             </ul>
         </div>
