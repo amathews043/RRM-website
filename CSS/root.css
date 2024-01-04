@@ -155,6 +155,160 @@ body {
     font-size: 3rem;
     }
 
+    
+@media screen and (min-width: 1605px) and (max-width: 2428px){
+    .image-verse-address{
+        position: absolute;
+        top: 15rem;
+        left: 11rem;
+        font-size: 2rem;
+        }
+
+    .image-verse{
+        position: absolute;
+        top: 18rem;
+        left: 8rem;
+        font-size: 2.5rem;
+        max-width: 30rem;
+        }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1606px){
+    .image-verse-address{
+        position: absolute;
+        top: 10rem;
+        left: 11rem;
+        font-size: 2rem;
+        }
+
+    .image-verse{
+        position: absolute;
+        top: 14rem;
+        left: 8rem;
+        font-size: 2.5rem;
+        max-width: 30rem;
+        }
+}
+
+@media screen and (min-width: 1055px) and (max-width: 1300px){
+    .image-verse-address{
+        position: absolute;
+        top: 5rem;
+        left: 11rem;
+        font-size: 2rem;
+        }
+
+    .image-verse{
+        position: absolute;
+        top:9rem;
+        left: 8rem;
+        font-size: 2.5rem;
+        max-width: 30rem;
+        }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1055px){
+    .image-verse-address{
+        position: absolute;
+        top: 4rem;
+        left: 3rem;
+        font-size: 1.8rem;
+        }
+
+    .image-verse{
+        position: absolute;
+        top:8rem;
+        left: 2rem;
+        font-size: 2rem;
+        max-width: 30rem;
+        }
+}
+
+@media screen and (min-width: 720px) and (max-width: 850px){
+    .image-verse-address{
+        position: absolute;
+        top: 4rem;
+        left: 3rem;
+        font-size: 1.5rem;
+        }
+
+    .image-verse{
+        position: absolute;
+        top:7rem;
+        left: 2rem;
+        font-size: 1.7rem;
+        max-width: 23rem;
+        }
+}
+
+@media screen and (min-width: 500px) and (max-width: 720px){
+    .image-verse-address{
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        font-size: 1rem;
+        }
+
+    .image-verse{
+        position: absolute;
+        top:5rem;
+        left: 2rem;
+        font-size: 1.2rem;
+        max-width: 15rem;
+        }
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px){
+    .image-verse-address{
+        position: absolute;
+        top: 2.5rem;
+        left: 3rem;
+        font-size: .8rem;
+        }
+
+    .image-verse{
+        position: absolute;
+        top:4rem;
+        left: 2rem;
+        font-size: .8rem;
+        max-width: 12rem;
+        }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px){
+    .image-verse-address{
+        position: absolute;
+        top: 1.5rem;
+        left: 2rem;
+        font-size: .8rem;
+        }
+
+    .image-verse{
+        position: absolute;
+        top:2.5rem;
+        left: 1rem;
+        font-size: .8rem;
+        max-width: 10rem;
+        }
+}
+
+@media screen and (max-width: 300px){
+    .image-verse-address{
+        position: absolute;
+        top: 1.5rem;
+        left: 2rem;
+        font-size: .5rem;
+        }
+
+    .image-verse{
+        position: absolute;
+        top:2.5rem;
+        left: 1rem;
+        font-size: .5rem;
+        max-width: 8rem;
+        }
+}
+
 @media screen and (min-width: 1100px) {
     #hamburger-menu{
         display: none;
@@ -171,8 +325,22 @@ body {
     .mobile-menu-image{
         max-width: 3rem;
     }
+
+    /* .image-verse-address{
+        position: absolute;
+        top: 1rem;
+        left: 1.5rem;
+        font-size: 1rem;
+        }
+    .image-verse{
+        position: absolute;
+        top: 2.5rem;
+        left: 1rem;
+        font-size: 1rem;
+        max-width: 10rem;
+        } */
     
 }
 
 
-/* TODO: make the hamburger menu for mobile and tablet view */
+/* TODO: make the sub menu for mobile and tablet view in the hamburger menu*/
