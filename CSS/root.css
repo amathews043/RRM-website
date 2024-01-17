@@ -136,10 +136,13 @@ body {
 .image-container{
     position: relative;
     text-align: center;
+    background-color: black;
 }
 
 .cross-image{
     width: 100%;
+    opacity: 0.85;
+
 }
 
 .image-verse-address{
